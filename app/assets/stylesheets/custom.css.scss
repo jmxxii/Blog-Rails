@@ -1,0 +1,31 @@
+$navbar-default-bg: gray;
+
+@import "bootstrap";
+
+#links {
+  color: #fff;
+}
+
+#logo {
+  color: #fff;
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.center {
+  text-align: center;
+}
+
+.jumbotron {
+  background-image: asset-url('blog-jumbotron.jpg');
+  background-size: cover;
+  height: 600px;
+  padding-bottom: 400px;
+}
+
+.home-h1 {
+  color: #fff;
+  font-weight: bolder;
+  font-size: 5em;
+}
